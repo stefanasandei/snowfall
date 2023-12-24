@@ -1,6 +1,6 @@
 CC       	= gcc
 CFLAGS   	= -std=c99
-LFLAGS   	= -lm
+LFLAGS   	= -lm -lncursesw
 
 TARGET    = snowfall
 SRC_DIR   = src
